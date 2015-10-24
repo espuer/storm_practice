@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="226" failures="0" name="TestSuite" time="2.308" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\git\storm_practice"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\git\storm_practice"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Junyong\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\software\apache-maven-3.3.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Python27;D:\software\apache-maven-3.3.3\bin;D:\Program Files\Bandizip\7z;."/>
+    <property name="diskTests" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Junyong"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="MS949"/>
+    <property name="user.name" value="Junyong"/>
+    <property name="java.class.path" value="D:\software\apache-maven-3.3.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package -DdiskTests=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms949"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\software\apache-maven-3.3.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms949"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0.149"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="shouldDeclareOutputFields" time="0.094"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="shouldEmitNothingIfNormalTupleIsReceived" time="0.015"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="shouldEmitSomethingIfTickTupleIsReceived" time="0.016"/>
+  <testcase classname="storm.starter.bolt.IntermediateRankingsBoltTest" name="shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="negativeOrZeroNumTimesToTrackShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="negativeOrZeroNumTimesToTrackShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="negativeOrZeroNumTimesToTrackShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="negativeOrZeroNumTimesToTrackShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="negativeOrZeroNumTimesToTrackShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="positiveNumTimesToTrackShouldBeOk" time="0.016"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="positiveNumTimesToTrackShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="positiveNumTimesToTrackShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="positiveNumTimesToTrackShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeEvenWhenNotYetMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.NthLastModifiedTimeTrackerTest" name="shouldReturnCorrectModifiedTimeWhenMarkedAsModified" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="constructorWithNegativeCountAndFieldsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="constructorWithNegativeCountAndNoFieldsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="constructorWithNullObjectAndFieldsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="constructorWithNullObjectAndNoFieldsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="fieldsShouldBeImmutable" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldBeEqualToItself" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldBeEqualToTrueDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldBeEqualToTrueDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldBeEqualToTrueDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldCreateRankableObjectFromTuple" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveDifferentHashCodeThanFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveDifferentHashCodeThanFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveDifferentHashCodeThanFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveDifferentHashCodeThanFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveDifferentHashCodeThanFalseDuplicates" time="0.016"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveDifferentHashCodeThanFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveSameHashCodeAsTrueDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveSameHashCodeAsTrueDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldHaveSameHashCodeAsTrueDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToFalseDuplicates" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToInstancesOfOtherClasses" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToInstancesOfOtherClasses" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToInstancesOfOtherClasses" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldNotBeEqualToInstancesOfOtherClasses" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldReturnTheCount" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldReturnTheFields" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldReturnTheFields" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="shouldReturnTheObject" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="toStringShouldContainStringRepresentationsOfObjectAndCount" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="toStringShouldContainStringRepresentationsOfObjectAndCount" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0.015"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankableObjectWithFieldsTest" name="verifyCompareTo" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithNegativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithNegativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithNegativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithNegativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithPositiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithPositiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithPositiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="constructorWithPositiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyConstructorShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="copyShouldReturnDefensiveCopy" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="defaultConstructorShouldSetPositiveTopN" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenNotEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenNotEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenNotEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenNotEmptyAndUpdatedWithOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithEmptyOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithEmptyOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithEmptyOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithEmptyOtherRankings" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithRankables" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithRankables" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithRankables" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldCorrectlyRankWhenUpdatedWithRankables" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldHaveDefaultConstructor" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldNotRankDuplicateObjectsMoreThanOnce" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldNotRankDuplicateObjectsMoreThanOnce" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldRemoveZeroCounts" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldRemoveZeroCounts" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldRemoveZeroCounts" time="0.016"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldRemoveZeroCounts" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldRemoveZeroCounts" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldRemoveZeroCounts" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="shouldRemoveZeroCounts" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="sizeOfRankingsShouldNotGrowBeyondTopN" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="sizeOfRankingsShouldNotGrowBeyondTopN" time="0"/>
+  <testcase classname="storm.starter.tools.RankingsTest" name="updatingWithNewRankablesShouldBeThreadSafe" time="0.015"/>
+  <testcase classname="storm.starter.bolt.RollingCountBoltTest" name="shouldDeclareOutputFields" time="0"/>
+  <testcase classname="storm.starter.bolt.RollingCountBoltTest" name="shouldEmitNothingIfNoObjectHasBeenCountedYetAndTickTupleIsReceived" time="0.032"/>
+  <testcase classname="storm.starter.bolt.RollingCountBoltTest" name="shouldEmitSomethingIfAtLeastOneObjectWasCountedAndTickTupleIsReceived" time="0"/>
+  <testcase classname="storm.starter.bolt.RollingCountBoltTest" name="shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="lessThanTwoSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="lessThanTwoSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="lessThanTwoSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="lessThanTwoSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="lessThanTwoSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="lessThanTwoSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="newInstanceShouldHaveEmptyCounts" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="testCounterWithSimulatedRuns" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="testCounterWithSimulatedRuns" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="testCounterWithSimulatedRuns" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="testCounterWithSimulatedRuns" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="testCounterWithSimulatedRuns" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="twoOrMoreSlotsShouldBeValid" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="twoOrMoreSlotsShouldBeValid" time="0"/>
+  <testcase classname="storm.starter.tools.SlidingWindowCounterTest" name="twoOrMoreSlotsShouldBeValid" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="negativeOrZeroNumSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="negativeOrZeroNumSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="negativeOrZeroNumSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="negativeOrZeroNumSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="negativeOrZeroNumSlotsShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="newInstanceShouldHaveEmptyCounts" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="positiveNumSlotsShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="positiveNumSlotsShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="positiveNumSlotsShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="positiveNumSlotsShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="shouldIncrementCount" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="shouldIncrementCountOnlyOneSlotAtATime" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="shouldReturnNonEmptyCountsWhenAtLeastOneObjectWasCounted" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="shouldReturnZeroForNonexistentObject" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="wipeSlotShouldSetAllCountsInSlotToZero" time="0"/>
+  <testcase classname="storm.starter.tools.SlotBasedCounterTest" name="wipeZerosShouldRemoveAnyObjectsWithZeroTotalCount" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroEmitFrequencyShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="negativeOrZeroTopNShouldThrowIAE" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveEmitFrequencyShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="positiveTopNShouldBeOk" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="shouldDeclareOutputFields" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="shouldEmitNothingIfNormalTupleIsReceived" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="shouldEmitSomethingIfTickTupleIsReceived" time="0"/>
+  <testcase classname="storm.starter.bolt.TotalRankingsBoltTest" name="shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue" time="0"/>
+</testsuite>
